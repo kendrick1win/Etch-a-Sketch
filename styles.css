@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: background color for better visibility */
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px; /* Adjust based on your grid size */
+    height: 320px; /* Adjust based on your grid size */
+}
+
+.square {
+    flex: 1 0 20px; /* Each square will be 20x20px, adjust if needed */
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* Optional: border for better visibility */
+}
